@@ -1,0 +1,58 @@
+.help-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    overflow: auto;
+}
+
+.help-section > div {
+    width: 800px;
+    position: relative;
+    margin: 10% auto;
+    padding: 40px 30px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.help-items {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-right: 150px;
+}
+
+.help-content {
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 10px;
+    font: 18px Roboto;
+}
+
+.help-button {
+    color: #0c0c0c;
+    height: 43px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font: 14px Roboto;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.help-content-image {
+    margin-left: 140px;
+    margin-bottom: 50px;
+    width: 30%;
+}

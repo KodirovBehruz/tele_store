@@ -1,0 +1,25 @@
+.home-section {
+    margin-top: 161px;
+    margin-bottom: 150px;
+}
+
+.home-section .container {
+    display: flex;
+}
+
+.home-info {
+    max-width: 800px;
+}
+
+.home-title {
+    font-size: 50px;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.home-text {
+    max-width: 697px;
+    font-size: 20px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,72 @@
+.catalog-common-title {
+    font: 50px Roboto;
+    line-height: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.catalog-items {
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    gap: 90px 24px;
+    position: relative;
+}
+
+.catalog-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    color: #0c0c0c;
+    position: relative;
+}
+
+.catalog-item-image {
+    height: 202px;
+    text-align: center;
+}
+
+.catalog-item-image img {
+    width: 200px;
+}
+
+.catalog-item-details {
+    padding: 24px;
+}
+
+.catalog-item-text {
+    font: 16px Roboto;
+    line-height: 120%;
+}
+
+.catalog-item-extra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog-item-price {
+    font: 16px Roboto;
+    margin-bottom: 10px;
+}
+
+.percent-of-discount {
+    position: absolute;
+    top: 10px;
+    font: 16px Roboto;
+    background-color: yellow;
+    color: #0c0c0c;
+}
+
+.catalog-item-instock {
+    font: 16px Roboto;
+    margin-bottom: 10px;
+    color: green;
+    font-weight: bolder;
+}
+
+.catalog-item-favorites {
+    margin-left: 10px;
+    cursor: pointer;
+}
