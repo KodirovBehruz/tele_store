@@ -1,0 +1,15 @@
+.search-fields {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.search-fields input {
+    height: 25px;
+    width: 300px;
+    border: 1px solid #666;
+    border-radius: 8px;
+    padding: 20px 18px;
+    font-size: 18px;
+    box-sizing: border-box;
+    color: black;
+}

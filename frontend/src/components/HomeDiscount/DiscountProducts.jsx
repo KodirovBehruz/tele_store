@@ -39,8 +39,8 @@ export default function DiscountProducts({ image, text, price, discount, inStock
                 <div className="discount-item-instock">{inStock ? 'В наличии' : "нет в наличии"}</div>
                 <div className="discount-item-favorites" onClick={handleFavoritesClick}>
                     {addToFavorites
-                        ? <img src="public/favorites-icon-true.png" alt="favImage-true" />
-                        : <img src="public/favorites_icon_false.png" alt="favImage-false" />
+                        ? <img src={fav_true} alt="favImage-true" />
+                        : <img src={fav_false} alt="favImage-false" />
                     }
                 </div>
             </div>
